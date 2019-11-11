@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "author": "Deivison Sales <deivisondfs@gmail.com> (www.linkedin.com/in/deivison-sales-b3921b43)",
   "description": "Module responsible for encapsulating all http error requests and returns the correct exception.",
-  "main": "./src/httpErrorHandle.js",
+  "main": "httpErrorHandle.js",
   "scripts": {
     "test": "npm run test:mocha",
     "test:mocha": "nyc mocha test/**/*.js --opts mocha.opts"

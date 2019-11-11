@@ -1,4 +1,4 @@
-const errorMaping = require('./util/errorMaping');
+const errorMaping = require('./src/util/errorMaping');
 
 module.exports = httpErrorsHandle = async (request, customMessage = null) => {
     try {

@@ -2,7 +2,7 @@ const nock = require('nock');
 const assert = require('assert');
 const axios = require('axios');
 
-const errorHandle = require('../src/httpErrorsHandle');
+const errorHandle = require('../httpErrorsHandle');
 
 describe("httpErrorsHandle()", () => {
 

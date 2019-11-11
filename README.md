@@ -2,16 +2,12 @@
 
 Module responsible for encapsulating all http error requests and returns the correct exception.
 
-## API
-
-This is the current API, that uses the package [http-errors](https://www.npmjs.com/package/http-errors) internally.
-
 ## Example
 
 ```js
 const httpErrorsHandle = require('http-errors-handle');
 const axios = require('axios');
-var app = express()
+var app = express();
 
 app.use(function (req, res, next) {
     try {

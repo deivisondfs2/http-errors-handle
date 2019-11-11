@@ -1,6 +1,6 @@
 {
   "name": "http-errors-handle",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Deivison Sales <deivisondfs@gmail.com> (www.linkedin.com/in/deivison-sales-b3921b43)",
   "description": "Module responsible for encapsulating all http error requests and returns the correct exception.",
   "main": "httpErrorHandle.js",

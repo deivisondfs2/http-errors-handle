@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.015" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2019-11-08T16:50:53" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="httpErrorsHandle()" timestamp="2019-11-08T16:50:53" tests="5" file="/media/dfs2/8db50751-1bdc-42e7-a702-5af7636b2a17/meu/projetos-para-npm/http-errors-handle/test/error_handle.test.js" failures="0" time="0.015">
+    <testcase name="httpErrorsHandle() Request Success" time="0.012" classname="Request Success">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is NotFound" time="0.002" classname="when status is NotFound">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is NotFound with a custom message" time="0.001" classname="when status is NotFound with a custom message">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is BadRequest" time="0" classname="when status is BadRequest">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is BadRequest with custom message" time="0" classname="when status is BadRequest with custom message">
+    </testcase>
+  </testsuite>
+</testsuites>

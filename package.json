@@ -1,0 +1,33 @@
+{
+  "name": "http-errors-handle",
+  "version": "1.0.0",
+  "author": "Deivison Sales <deivisondfs@gmail.com> (www.linkedin.com/in/deivison-sales-b3921b43)",
+  "description": "Module responsible for encapsulating all http error requests and returns the correct exception.",
+  "main": "./src/httpErrorHandle.js",
+  "scripts": {
+    "test": "npm run test:mocha",
+    "test:mocha": "nyc mocha test/**/*.js --opts mocha.opts"
+  },
+  "repository": "deivisondfs2/http-errors-handle",
+  "license": "MIT",
+  "devDependencies": {
+    "axios": "^0.19.0",
+    "mocha": "^6.2.2",
+    "mocha-junit-reporter": "^1.23.1",
+    "nock": "^11.7.0",
+    "nodemon": "^1.19.4",
+    "nyc": "^14.1.1"
+  },
+  "dependencies": {
+    "http-errors": "^1.7.3"
+  },
+  "keywords": [
+    "http",
+    "error",
+    "handle",
+    "http-status",
+    "http-errors",
+    "http-error",
+    "error-http"
+  ]
+}

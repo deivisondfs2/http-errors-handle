@@ -9,7 +9,7 @@ const httpErrorsHandle = require('http-errors-handle');
 const axios = require('axios');
 var app = express();
 
-app.use(function (req, res, next) {
+app.use(async function (req, res, next) {
     try {
             const request = axios.get("http://example.test/");
             const resp = await httpErrorsHandle(request);

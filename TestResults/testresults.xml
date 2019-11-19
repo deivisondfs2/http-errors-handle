@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="0.015" tests="5" failures="0">
-  <testsuite name="Root Suite" timestamp="2019-11-08T16:50:53" tests="0" failures="0" time="0">
+<testsuites name="Mocha Tests" time="0.05700000000000004" tests="83" failures="0">
+  <testsuite name="Root Suite" timestamp="2019-11-19T17:00:46" tests="0" failures="0" time="0">
   </testsuite>
-  <testsuite name="httpErrorsHandle()" timestamp="2019-11-08T16:50:53" tests="5" file="/media/dfs2/8db50751-1bdc-42e7-a702-5af7636b2a17/meu/projetos-para-npm/http-errors-handle/test/error_handle.test.js" failures="0" time="0.015">
-    <testcase name="httpErrorsHandle() Request Success" time="0.012" classname="Request Success">
+  <testsuite name="httpErrorsHandle()" timestamp="2019-11-19T17:00:46" tests="83" file="/media/dfs2/8db50751-1bdc-42e7-a702-5af7636b2a17/meu/projetos-para-npm/http-errors-handle/test/error_handle.test.js" failures="0" time="0.05700000000000004">
+    <testcase name="httpErrorsHandle() Request Success" time="0.01" classname="Request Success">
     </testcase>
     <testcase name="httpErrorsHandle() when status is NotFound" time="0.002" classname="when status is NotFound">
     </testcase>
@@ -11,7 +11,163 @@
     </testcase>
     <testcase name="httpErrorsHandle() when status is BadRequest" time="0" classname="when status is BadRequest">
     </testcase>
-    <testcase name="httpErrorsHandle() when status is BadRequest with custom message" time="0" classname="when status is BadRequest with custom message">
+    <testcase name="httpErrorsHandle() when status is BadRequest with custom message" time="0.001" classname="when status is BadRequest with custom message">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is Unauthorized" time="0" classname="when status is Unauthorized">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is Unauthorized" time="0.001" classname="when status is Unauthorized">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is Unauthorized" time="0" classname="when status is Unauthorized">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is PaymentRequired" time="0.001" classname="when status is PaymentRequired">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is Forbidden" time="0" classname="when status is Forbidden">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is Forbidden" time="0.001" classname="when status is Forbidden">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is MethodNotAllowed" time="0" classname="when status is MethodNotAllowed">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is MethodNotAllowed" time="0.001" classname="when status is MethodNotAllowed">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is NotAcceptable" time="0" classname="when status is NotAcceptable">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is NotAcceptable" time="0" classname="when status is NotAcceptable">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is ProxyAuthenticationRequired" time="0" classname="when status is ProxyAuthenticationRequired">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is ProxyAuthenticationRequired" time="0" classname="when status is ProxyAuthenticationRequired">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is RequestTimeout" time="0" classname="when status is RequestTimeout">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is RequestTimeout" time="0" classname="when status is RequestTimeout">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is Conflict" time="0" classname="when status is Conflict">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is Conflict" time="0" classname="when status is Conflict">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is Gone" time="0.001" classname="when status is Gone">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is Gone" time="0" classname="when status is Gone">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is LengthRequired" time="0.001" classname="when status is LengthRequired">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is LengthRequired" time="0" classname="when status is LengthRequired">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is PreconditionFailed" time="0.001" classname="when status is PreconditionFailed">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is PreconditionFailed" time="0" classname="when status is PreconditionFailed">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is PayloadTooLarge" time="0.005" classname="when status is PayloadTooLarge">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is PayloadTooLarge" time="0.002" classname="when status is PayloadTooLarge">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is URITooLong" time="0.001" classname="when status is URITooLong">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is URITooLong" time="0.001" classname="when status is URITooLong">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is UnsupportedMediaType" time="0" classname="when status is UnsupportedMediaType">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is UnsupportedMediaType" time="0" classname="when status is UnsupportedMediaType">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is RangeNotSatisfiable" time="0.001" classname="when status is RangeNotSatisfiable">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is RangeNotSatisfiable" time="0" classname="when status is RangeNotSatisfiable">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is ExpectationFailed" time="0.001" classname="when status is ExpectationFailed">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is ExpectationFailed" time="0" classname="when status is ExpectationFailed">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is ImATeapot" time="0.001" classname="when status is ImATeapot">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is ImATeapot" time="0" classname="when status is ImATeapot">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is MisdirectedRequest" time="0.001" classname="when status is MisdirectedRequest">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is MisdirectedRequest" time="0" classname="when status is MisdirectedRequest">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is UnprocessableEntity" time="0.001" classname="when status is UnprocessableEntity">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is UnprocessableEntity" time="0" classname="when status is UnprocessableEntity">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is Locked" time="0.001" classname="when status is Locked">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is Locked" time="0" classname="when status is Locked">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is FailedDependency" time="0.002" classname="when status is FailedDependency">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is FailedDependency" time="0.001" classname="when status is FailedDependency">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is UnorderedCollection" time="0" classname="when status is UnorderedCollection">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is UnorderedCollection" time="0.001" classname="when status is UnorderedCollection">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is UpgradeRequired" time="0.001" classname="when status is UpgradeRequired">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is UpgradeRequired" time="0" classname="when status is UpgradeRequired">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is PreconditionRequired" time="0.001" classname="when status is PreconditionRequired">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is PreconditionRequired" time="0.001" classname="when status is PreconditionRequired">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is TooManyRequests" time="0" classname="when status is TooManyRequests">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is TooManyRequests" time="0.001" classname="when status is TooManyRequests">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is RequestHeaderFieldsTooLarge" time="0" classname="when status is RequestHeaderFieldsTooLarge">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is RequestHeaderFieldsTooLarge" time="0.001" classname="when status is RequestHeaderFieldsTooLarge">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is UnavailableForLegalReasons" time="0.001" classname="when status is UnavailableForLegalReasons">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is UnavailableForLegalReasons" time="0" classname="when status is UnavailableForLegalReasons">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is InternalServerError" time="0.001" classname="when status is InternalServerError">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is InternalServerError" time="0" classname="when status is InternalServerError">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is NotImplemented" time="0" classname="when status is NotImplemented">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is NotImplemented" time="0" classname="when status is NotImplemented">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is BadGateway" time="0" classname="when status is BadGateway">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is BadGateway" time="0" classname="when status is BadGateway">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is ServiceUnavailable" time="0.001" classname="when status is ServiceUnavailable">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is ServiceUnavailable" time="0" classname="when status is ServiceUnavailable">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is GatewayTimeout" time="0.001" classname="when status is GatewayTimeout">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is GatewayTimeout" time="0" classname="when status is GatewayTimeout">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is HTTPVersionNotSupported" time="0.001" classname="when status is HTTPVersionNotSupported">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is HTTPVersionNotSupported" time="0" classname="when status is HTTPVersionNotSupported">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is VariantAlsoNegotiates" time="0.001" classname="when status is VariantAlsoNegotiates">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is VariantAlsoNegotiates" time="0.001" classname="when status is VariantAlsoNegotiates">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is InsufficientStorage" time="0" classname="when status is InsufficientStorage">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is InsufficientStorage" time="0.001" classname="when status is InsufficientStorage">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is LoopDetected" time="0" classname="when status is LoopDetected">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is LoopDetected" time="0.001" classname="when status is LoopDetected">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is BandwidthLimitExceeded" time="0" classname="when status is BandwidthLimitExceeded">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is BandwidthLimitExceeded" time="0.001" classname="when status is BandwidthLimitExceeded">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is NotExtended" time="0" classname="when status is NotExtended">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is NotExtended" time="0.001" classname="when status is NotExtended">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is NetworkAuthenticationRequired" time="0" classname="when status is NetworkAuthenticationRequired">
+    </testcase>
+    <testcase name="httpErrorsHandle() when status is NetworkAuthenticationRequired" time="0.001" classname="when status is NetworkAuthenticationRequired">
     </testcase>
   </testsuite>
 </testsuites>
